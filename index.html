@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ken 的作品集：携程、Avatar 与 AI 项目实践。" />
+    <meta name="robots" content="noindex,nofollow,noarchive,noimageindex" />
+    <title>Ken 的作品集</title>
+    <link rel="icon" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="portfolio-shell">
+      <header class="portfolio-header">
+        <a class="ken-brand" href="#top" aria-label="返回作品集顶部">
+          <span class="ken-mark" aria-hidden="true">K</span>
+          <span>
+            <strong>Ken 的作品集</strong>
+            <small>PRODUCT · AI · EXPERIENCE</small>
+          </span>
+        </a>
+
+        <div class="header-progress" id="header-progress" aria-label="当前第 1 张，共 48 张">
+          <span id="current-page">01</span>
+          <i aria-hidden="true"><b id="progress-bar"></b></i>
+          <span>48</span>
+        </div>
+
+        <button class="project-nav-button" id="open-projects" type="button">
+          <span id="current-project">携程</span>
+          全部项目
+          <i aria-hidden="true">↗</i>
+        </button>
+      </header>
+
+      <section class="portfolio-intro" id="top">
+        <p class="intro-kicker">SELECTED WORK · 2025</p>
+        <h1>Ken 的作品集</h1>
+        <p class="intro-copy">产品策略、AI 应用与体验设计实践</p>
+        <span class="scroll-hint">向下滑动浏览全部作品 ↓</span>
+      </section>
+
+      <section class="waterfall" id="waterfall" aria-label="Ken 的完整作品集"></section>
+
+      <footer class="portfolio-footer">
+        <span class="ken-mark footer-mark" aria-hidden="true">K</span>
+        <h2>感谢浏览</h2>
+        <p>Ken · Portfolio · 2025</p>
+        <a href="#top">再次浏览 ↑</a>
+      </footer>
+
+      <aside class="project-nav" id="project-nav" aria-hidden="true">
+        <button class="project-nav-backdrop" id="project-backdrop" type="button" aria-label="关闭项目导航"></button>
+        <div class="project-nav-panel" role="dialog" aria-modal="true" aria-label="项目导航">
+          <div class="project-nav-heading">
+            <div>
+              <span>PROJECT INDEX</span>
+              <h2>选择项目</h2>
+              <p>按项目快速进入对应的完整案例</p>
+            </div>
+            <button id="close-projects" type="button" aria-label="关闭">×</button>
+          </div>
+
+          <div class="project-cards">
+            <button class="project-card" type="button" data-project="1" style="--project-accent: #2f7df6">
+              <div class="project-cover">
+                <img src="./slides/01.webp" alt="" width="640" height="360" />
+                <span>01</span>
+              </div>
+              <div class="project-card-copy">
+                <span>16 张 · 完整案例</span>
+                <h3>携程</h3>
+                <p>旅行产品与品牌体验</p>
+                <i aria-hidden="true">进入项目 →</i>
+              </div>
+            </button>
+
+            <button class="project-card" type="button" data-project="17" style="--project-accent: #8b5cf6">
+              <div class="project-cover">
+                <img src="./slides/17.webp" alt="" width="640" height="360" />
+                <span>02</span>
+              </div>
+              <div class="project-card-copy">
+                <span>7 张 · 完整案例</span>
+                <h3>Avatar</h3>
+                <p>游戏产品体验设计</p>
+                <i aria-hidden="true">进入项目 →</i>
+              </div>
+            </button>
+
+            <button class="project-card" type="button" data-project="24" style="--project-accent: #11a69a">
+              <div class="project-cover">
+                <img src="./slides/24.webp" alt="" width="640" height="360" />
+                <span>03</span>
+              </div>
+              <div class="project-card-copy">
+                <span>24 张 · 完整案例</span>
+                <h3>AI</h3>
+                <p>AI 产品与提效实践</p>
+                <i aria-hidden="true">进入项目 →</i>
+              </div>
+            </button>
+          </div>
+
+          <button class="intro-link" id="browse-from-start" type="button">
+            从 Ken 的个人介绍开始浏览 <span aria-hidden="true">↑</span>
+          </button>
+        </div>
+      </aside>
+    </main>
+    <noscript>请启用 JavaScript 以浏览完整作品集。</noscript>
+  </body>
+</html>
